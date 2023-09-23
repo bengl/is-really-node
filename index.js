@@ -1,9 +1,4 @@
 /**
-  * First of all, this is a CommonJS module. These aren't supported by Deno,
-  * but that can be worked around with various bundling techniques, etc.
-  */
-
-/**
   * Let's check for some basic globals. If these aren't present, game over.
   */
 function hasNodeGlobals() {
