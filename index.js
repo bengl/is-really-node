@@ -21,7 +21,7 @@ function hasBunGlobal() {
 }
 
 /**
-  * We'll do the same here for Deno. The Deno object _can_ be delted, so this
+  * We'll do the same here for Deno. The Deno object _can_ be deleted, so this
   * could be faked around, so we need the subsequent test as well.
   */
 function hasDenoGlobal() {
