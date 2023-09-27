@@ -69,7 +69,12 @@ async function isNodeIshV8() {
   return privateSymbol()
 }
 
-export default hasNodeGlobals() &&
+/**
+ * Returns true if we're definitely running inside Node.js.
+ */
+const isReallyNode = hasNodeGlobals() &&
   !hasBunGlobal() &&
   !hasDenoGlobal() &&
   await isNodeIshV8()
+
+export default isReallyNode;

@@ -2,7 +2,8 @@
   "compilerOptions": {
     "checkJs": true,
     "declaration": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "module": "NodeNext"
   },
   "include": ["index.js"]
 }
