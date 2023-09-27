@@ -8,8 +8,6 @@
     "node": ">=16"
   },
   "scripts": {
-    "build": "tsc",
-    "prepack": "tsc",
     "test": "node test"
   },
   "type": "module",
@@ -29,9 +27,5 @@
   "bugs": {
     "url": "https://github.com/bengl/is-really-node/issues"
   },
-  "homepage": "https://github.com/bengl/is-really-node#readme",
-  "devDependencies": {
-    "@types/node": "^20.7.0",
-    "typescript": "^5.2.2"
-  }
+  "homepage": "https://github.com/bengl/is-really-node#readme"
 }

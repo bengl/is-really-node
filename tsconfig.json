@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "checkJs": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "module": "NodeNext"
-  },
-  "include": ["index.js"]
-}
