@@ -70,7 +70,7 @@ async function isNodeIshV8() {
 }
 
 /**
- * Returns true if we're definitely running inside Node.js.
+ * True if we're definitely running inside Node.js.
  */
 const isReallyNode = hasNodeGlobals() &&
   !hasBunGlobal() &&
