@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Determine whether the current runtime is _really_ Node.js, or some impostor.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
     "test": "node test"
   },
