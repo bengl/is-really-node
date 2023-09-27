@@ -16,7 +16,6 @@ function hasNodeGlobals() {
   * pretend to be Node.js.
   */
 function hasBunGlobal() {
-  // @ts-expect-error checking for Bun global
   return typeof Bun !== 'undefined' ||
     typeof global.Bun !== 'undefined'
 }
@@ -26,7 +25,6 @@ function hasBunGlobal() {
   * could be faked around, so we need the subsequent test as well.
   */
 function hasDenoGlobal() {
-  // @ts-expect-error checking for Deno global
   return typeof Deno === 'object' ||
     typeof global.Deno === 'object'
 }
