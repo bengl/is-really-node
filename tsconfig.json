@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["index.js"]
+}
